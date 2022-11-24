@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <h1>Termékek</h1>
+    <h1>Új termékek</h1>
     @yield( "content" )
 
 </body>

@@ -9,8 +9,10 @@ class Perfume extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+    
+    public $timestamps = false;
 
+    protected $fillable = [
         "name",
         "type",
         "price"
